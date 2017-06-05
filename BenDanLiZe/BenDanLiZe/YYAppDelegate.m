@@ -1,10 +1,3 @@
-//
-//  YYAppDelegate.m
-//  BenDanLiZe
-//
-//  Created by lanou3g on 14-6-10.
-//  Copyright (c) 2014年 lanou3g. All rights reserved.
-//
 
 #import "YYAppDelegate.h"
 
@@ -14,7 +7,7 @@
 {
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
+    self.window.backgroundColor = [UIColor redColor];
     [self.window makeKeyAndVisible];
     return YES;
 }
